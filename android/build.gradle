@@ -10,6 +10,9 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+			url "https://repositories.mrf.io/nexus/repository/mvn-marfeel-public/"
+		}
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
